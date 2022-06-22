@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+
+}
+body{
+    display: grid;
+}
+ .logo{
+ 	display: flex;
+ 	justify-content: start;
+ 	margin-left: 40px;
+ 	margin-top: 60px;
+
+ }
+
+ .logo i{
+ 	width: 55px;
+ 	background: transparent;
+ 	border: 2px solid #2ecc71;
+ 	color: #2ecc71;
+ 	border-radius: 50%;
+ 	align-items: center;
+ 	display: inline-flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	font-size: 20px;
+ 	cursor: pointer;
+
+ }
+
+ .para{
+ 	margin-top: 25px;
+ 	font-size: 20px;
+ }
+ .nav-bar{
+ 	display: flex;
+ 	justify-content: center;
+ 	text-transform: capitalize;
+ 	align-items: flex-end;
+    margin-left: 500px;
+    margin-bottom: 100px;
+ }
+
+ .nav-bar ul {
+ 	text-decoration:none;
+ 	}
+
+ 	.nav-bar ul li{
+ 	display: inline-flex;
+ 	justify-content: space-between;
+ 	padding: 20px;
+
+ 	}
+
+ 	.nav-bar ul li a{
+ 		text-decoration: none;
+ 		color: #2ecc71;
+ 		cursor: pointer;
+
+
+ 	}
+
+ 	a:hover{
+ 		border: 1px solid black;
+ 		background-color: black;
+ 		border-radius: 5px;
+ 	}
+
+
+#aboutme{
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    background-color: black;
+    color: white;
+    width: 700px;
+   border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 40px;
+    text-align: center;
+    padding-top: 70px;
+    margin-top: 60px;
+}
+#aboutme img{
+    height: 400px;
+    width: 500px;
+border: 1px solid ;
+border-radius: 50px;
+margin-right: 50px;
+margin-top: 60px;
+}
+
+.part-2{
+    display: block;
+}
+#education{
+    background-color: black;
+color: white;
+width: 500px;
+height: 500px;
+margin-top:200px;
+text-align: center;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 30px;
+margin-left: 300px;
+padding-top: 120px;
+}
+
+#skills{
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 100px;
+text-align: center;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 30px;
+padding-top: 100px;
+}
+
+#contact{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    text-align: center;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 30px;
+color: white;
+text-align: center;
+padding-top: 150px;
+margin-top: 100px;
+margin-left: 300px;
+
+}
+.footer{
+    color: #2ecc71;
+}
+.back{
+    color: #2ecc71;
+}
+.front{
+    color: #2ecc71;
+}
+
+.sk-color{
+    color: #2ecc71;
+}
+
+.education{
+    color: #2ecc71;
+}
+.line{
+    width: 20%;
+    margin-left: 200px;
+}
+.line2{
+    width: 15%;
+    margin-left: 210px;
+}
+.line3{
+    width: 30%;
+    margin-left: 180px;
+}
+.line4{
+    width: 30%;
+    margin-left: 180px;
+
+}
+
+span{
+    color:#2ecc71;
+}
